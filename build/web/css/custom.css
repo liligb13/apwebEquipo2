@@ -1,0 +1,68 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 30 abr 2024, 23:45:02
+    Author     : soqui
+*/
+.login-register-section {
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.login-register-section a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.login-section,
+.register-section {
+    display: none;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-section h2,
+.register-section h2 {
+    margin-bottom: 20px;
+}
+
+.login-container,
+.register-container {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.login-container input,
+.register-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-container button,
+.register-container button {
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.login-container button:hover,
+.register-container button:hover {
+    background: #0056b3;
+}
+
+
