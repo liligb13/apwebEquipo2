@@ -8,24 +8,19 @@
     <link rel="stylesheet" href="css/custom.css">
 </head>
 <body>
-
-    <form action="registro_usuario_be.php" method = "post">
-
-        <h2>Hola</h2>
-        <p>Inicia tu registro</p>
-
-        <div class="input-wrapper">
-            <input type="text" name="username" placeholder="Nombre de usuario" name="usuario" required><br>
-        </div>
-        <div class="input-wrapper">
-            <input type="email" name="email" placeholder="Correo electrónico" name="correo" required><br>
-        </div>    
-        <div class="input-wrapper">
-            <input type="password" name="password" placeholder="Contraseña" name="contrasena" required><br>
-        </div>        
-
-        <input class="btn" type="submit" name="register" value="Enviar">
-
+    <h2>Registrarse</h2>
+    <form action="registro_usuario" method="post">
+        <!-- Campos del formulario de registro -->
+        <input type="text" name="usuario" placeholder="Nombre de usuario" name="usuario" required><br>
+        <input type="email" name="correo" placeholder="Correo electrónico" name="correo" required><br>
+        <input type="password" name="contrasena" placeholder="Contraseña" name="contrasena" required><br>
+        <button type="submit">Registrarse</button>
     </form>
+    <!-- Enlace a los archivos JavaScript del proyecto -->
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Otros scripts necesarios -->
+ 
 
 </body>
+</html>
